@@ -1,5 +1,6 @@
+
 body {
-    background-color: FloralWhite;
+    background-color: rgb(999, 999, 999);
 }
 h1 {
     text-align: center;
@@ -13,21 +14,116 @@ h1 {
     color: dodgerblue;
 }
 .upper-content{
-    background-color: rgb(22, 12, 1);
+    background-color: rgb(222, 152, 11);
 }
 .footer{
-    background-color: rgb(8, 19, 7);
+    background-color: rgb(89, 129, 8);
 }
 .foo{
-    background-color: rgb(6, 6, 10);
+    background-color: rgb(71, 46, 120);
 }
 div a {
-    background-color: rgb(62, 5, 34;
+    background-color: rgb(222, 152, 11);
     padding: 10px;
 }
 a > h1 {
 background-color: blanchedalmond;
-color: rgb(54, 45, 121);
+color: rgb(222, 152, 11);
 }
 a + a {
-    background-color: rgb(41, 14, 4);
+    background-color: rgb(222, 152, 11);
+}
+p:hover {
+    color:blueviolet;
+    font-weight: bold;
+}
+p::before {
+    content: ">>>";
+    color:rgb(89, 129, 8);
+    font-weight: bold;
+}
+p::after {
+    content: "<<<";
+    color: rgb(222, 152, 11);
+    font-weight: bold;
+}
+p::selection {
+    background-color: bisque;
+    color: black;
+
+}
+.visible
+{
+    visibility: visible;
+}
+.hidden {
+    visibility:hidden;
+}
+.op_1{
+    opacity: 1;
+}
+.op_05{
+    opacity: 0.5
+}
+.none{
+    display:none;
+    font-style: italic;
+}
+.inline{
+    display:inline;
+    font-style: italic;
+}
+.block{
+    display:block;
+    font-style: italic;
+}
+*{
+    padding:0;
+    margin:0;
+  }
+  .nav{
+    background:rgb(253,185,185);
+    height:20px;
+    padding:10px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .banner{
+    background-color:aqua;
+    height:200px;
+  }
+  .content{
+    background-color:rgb(246,213,213);
+    height:400px;
+  }
+
+  .messi{
+    width:100%;
+    filter:grayscale(100%) invert(100%);
+  }
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.image {
+    transition: width 5s; /* Transition for width property */
+    cursor: pointer;
+}
+
+.image:hover {
+    width: 800px; /* Change the width on hover */
+}
+
+.center {
+    text-align: center;
+}
+
+.image {
+    filter: grayscale(100%);
+    filter: brightness(0.5);
+}
