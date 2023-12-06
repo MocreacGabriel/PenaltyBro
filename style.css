@@ -128,7 +128,7 @@ p::selection {
     filter: brightness(0.5);
 }
 .brok {
-    width: 100%;
+    width: 800px;
     filter: grayscale(100%) brightness(0.5);
 }
 
